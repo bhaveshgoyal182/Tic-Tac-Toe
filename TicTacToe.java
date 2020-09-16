@@ -1,4 +1,3 @@
-package arrays;
 import java.util.Scanner;
 
 class TicTacToe{
@@ -29,11 +28,11 @@ class TicTacToe{
 			board[row][col] = turn;
 			if(gameOver(row,col))
 			{
-				System.out.println("Game over! Player "+turn+" wins!!\n");
+				System.out.println("Game over! Player "+turn+" wins!!\nCode By Bhaveshgoyal182");
 				playing = false;
 			}
 			if(count==9)
-				{System.out.println("Match Drawn!!");System.exit(0);}
+				{System.out.println("Match Drawn!!\nCode By Bhaveshgoyal182");System.exit(0);}
 			if(turn=='X')
 				turn = 'O';
 			else
